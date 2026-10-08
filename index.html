@@ -14,14 +14,14 @@ body{margin:0;min-height:100vh;font-family:Inter,'Segoe UI',Arial,sans-serif;bac
 .hero{position:relative;text-align:center;padding:22px 24px 26px;background:linear-gradient(140deg,#263445,#131e2b 70%);overflow:hidden}
 .code{position:absolute;inset:0;opacity:.09;color:#d9e1e8;font:16px/2.1 monospace;letter-spacing:14px;word-break:break-all;pointer-events:none;transform:rotate(-13deg) scale(1.1)}
 .hero-inner{position:relative}
-.top-strip{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:10px}
-.logo-block{display:flex;flex-direction:column;align-items:center;gap:8px;max-width:132px}
-.org-logo,.ips-logo{background:#ffffffeb;border:1px solid #ffffff22;box-shadow:0 8px 20px #00000022;display:grid;place-items:center;overflow:hidden}
-.org-logo{width:72px;height:72px;border-radius:16px;padding:8px}
-.org-logo img{width:100%;height:100%;object-fit:contain}
-.ips-logo{width:64px;height:64px;border-radius:50%;padding:4px}
-.ips-logo img{width:100%;height:100%;object-fit:cover;border-radius:50%}
-.logo-caption{font-size:10.5px;line-height:1.35;color:#c0c9d3;opacity:.9;text-align:center}
+.top-strip{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;margin-bottom:10px}
+.logo-block{display:flex;flex-direction:column;align-items:center;gap:8px;max-width:150px}
+.org-logo,.ips-logo{background:transparent;border:none;box-shadow:none;display:grid;place-items:center;overflow:visible}
+.org-logo{width:128px;height:74px;border-radius:0;padding:0}
+.org-logo img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 6px 12px #00000035)}
+.ips-logo{width:92px;height:92px;border-radius:50%;padding:0}
+.ips-logo img{width:100%;height:100%;object-fit:cover;border-radius:50%;filter:drop-shadow(0 6px 12px #00000030)}
+.logo-caption{font-size:10.5px;line-height:1.35;color:#c7d0db;opacity:.9;text-align:center}
 .profile-wrap{display:flex;justify-content:center;margin:4px 0 14px}
 .profile-wrap img{width:168px;height:168px;border-radius:50%;object-fit:cover;border:4px solid #fff;box-shadow:0 10px 30px #0005;background:#fff}
 .divider{width:56px;height:3px;background:var(--orange);margin:0 auto 14px;border-radius:8px}
@@ -37,7 +37,7 @@ body{margin:0;min-height:100vh;font-family:Inter,'Segoe UI',Arial,sans-serif;bac
 .primary .ico{background:#ffffff25;color:#fff}
 .foot{text-align:center;color:#8a949f;font-size:11px;margin-top:19px}
 a:focus-visible{outline:3px solid #ff9b68;outline-offset:3px}
-@media (max-width:420px){.org-logo{width:62px;height:62px}.ips-logo{width:56px;height:56px}.logo-block{max-width:110px}.logo-caption{font-size:9.5px}.profile-wrap img{width:146px;height:146px}.hero h1{font-size:25px}.role{font-size:15px}}
+@media (max-width:420px){.org-logo{width:110px;height:64px}.ips-logo{width:76px;height:76px}.logo-block{max-width:122px}.logo-caption{font-size:9.5px}.profile-wrap img{width:146px;height:146px}.hero h1{font-size:25px}.role{font-size:15px}}
 </style>
 </head>
 <body>
